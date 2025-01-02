@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LandWind</title>
+    <link rel="stylesheet" href="./output.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--Navbar Section-->
+    <nav class="wrapper flex items-center justify-between gap-8 py-6">
+      <div class="flex items-center gap-8 w-full 2md:w-fit justify-between">
+        <div class="w-[120px] sm:w-[156px]">
+          <img src="./assets/Logo.svg" alt="logo image" />
+        </div>
+        <div id="menu-toggle" class="block 2md:hidden">
+          <i class="material-icons">menu</i>
+        </div>
+      </div>
+      <div
+        id="menu"
+        class="2md:flex items-center w-full justify-between flex-col 2md:flex-row absolute top-[80px] bg-white px-10 py-3 left-0 shadow 2md:static 2md:p-0 2md:shadow-none"
+      >
+        <ul class="flex gap-8 flex-col 2md:flex-row">
+          <li>
+            <a class="text-mainText font-medium capitalize" href=""></a>Company
+          </li>
+          <li>
+            <a class="text-mainText font-medium capitalize" href=""></a
+            >MarketPlace
+          </li>
+          <li>
+            <a class="text-mainText font-medium capitalize" href=""></a>Features
+          </li>
+          <li>
+            <a class="text-mainText font-medium capitalize" href=""></a>Team
+          </li>
+          <li>
+            <a class="text-mainText font-medium capitalize" href=""></a>Contact
+          </li>
+        </ul>
+
+        <div class="flex items-center gap-8">
+          <a href="text-mainText font-medium capitalize">Log in</a>
+          <a
+            class="bg-primary rounded-lg py-2 px-3 text-white capitalize button"
+            href=""
+            >get started</a
+          >
+        </div>
+      </div>
+    </nav>
+    <!--Hero Section-->
+    <header class="wrapper flex flex-col 2md:flex-col gap-16 py-16">
+      <div
+        class="flex flex-col 2md:flex-row gap-24 items-center justify-between"
+      >
+        <div class="w-full 2md:w-[50%]">
+          <h1 class="text-mainText text-4xl 2md:text-6xl font-black mb-6">
+            Building digital products & brands.
+          </h1>
+          <p class="text-secondaryText text-xl">
+            Here at flowbite we focus on markets where technology, innovation,
+            and capital can unlock long-term value and drive economic growth.
+          </p>
+          <div class="flex mt-10 gap-4">
+            <button class="button px-5 py-3">Start 30 day free trial</button>
+            <button class="px-5 py-3 border border-[#E5E7EB] rounded-lg">
+              Pricing & FAQ
+            </button>
+          </div>
+        </div>
+        <div class="w-full 2md:w-[40%]">
+          <img
+            class="w-full"
+            src="./assets/marketing-strategy 1.png"
+            alt="Hero Section Image"
+          />
+        </div>
+      </div>
+      <div class="grid grid-cols-2 2md:grid-cols-6 xl:grid-cols-6 gap-3">
+        <img src="./assets/Google.svg" alt="Google Image" />
+        <img src="./assets/Microsoft.svg" alt="microsoft image" />
+        <img src="./assets/Spotify.svg" alt="spotify image" />
+        <img src="./assets/Mailchimp.svg" alt="mailchimp image" />
+        <img src="./assets/Airbnb.svg" alt="airbnb image" />
+        <img src="./assets/uber.svg" alt="uber image" />
+      </div>
+    </header>
+    <!--main section-->
+    <main>
+      <!Features Section-->
+      <section class="bg-[#F9FAFB] pt-24">
+        <div
+          class="wrapper grid grid-cols-1 lg:grid-cols-2 gap-[74px] items-center justify-between"
+        >
+          <div>
+            <h2
+              class="leading-tight text-4xl text-mainText font-extrabold mb-4"
+            >
+              Work with tools you already use
+            </h2>
+            <p class="text-xl text-secondaryText mb-8">
+              Deliver great service experiences fast - without the complexity of
+              traditional ITSM solutions.Accelerate critical development work,
+              eliminate toil, and deploy changes with ease.
+            </p>
+            <div class="w-full h-[1px] bg-[#E5E7EB]"></div>
+            <ul class="mt-8 flex flex-col gap-4">
+              <li class="flex gap-2">
+                <img src="./assets/Vector.svg" alt="check mark icone" />
+                <span>Continuous integration and deployment</span>
+              </li>
+              <li class="flex gap-2">
+                <img src="./assets/Vector.svg" alt="check mark icone" />
+                <span>Development workflow</span>
+              </li>
+              <li class="flex gap-2">
+                <img src="./assets/Vector.svg" alt="check mark icone" />
+                <span>Knowledge management</span>
+              </li>
+            </ul>
+            <p class="text-xl text-secondaryText mt-6">
+              Deliver great service experiences fast - without the complexity of
+              traditional ITSM solutions.
+            </p>
+          </div>
+          <div>
+            <img src="./assets/features-1 1.png" alt="features image" />
+          </div>
+        </div>
+      </section>
+      <section class="bg-[#F9FAFB] py-24">
+        <div
+          class="wrapper grid grid-cols-1 lg:grid-cols-2 gap-[74px] items-center justify-between"
+        >
+          <div>
+            <img src="./assets/feature-2 1.png" alt="features image" />
+          </div>
+          <div>
+            <h2
+              class="leading-tight text-4xl text-mainText font-extrabold mb-4"
+            >
+              We invest in the world’s potential
+            </h2>
+            <p class="text-xl text-secondaryText mb-8">
+              Deliver great service experiences fast - without the complexity of
+              traditional ITSM solutions.Accelerate critical development work,
+              eliminate toil, and deploy changes with ease.
+            </p>
+            <div class="w-full h-[1px] bg-[#E5E7EB]"></div>
+            <ul class="mt-8 flex flex-col gap-4">
+              <li class="flex gap-2">
+                <img src="./assets/Vector.svg" alt="check mark icone" />
+                <span>Dynamic reports and dashboards</span>
+              </li>
+              <li class="flex gap-2">
+                <img src="./assets/Vector.svg" alt="check mark icone" />
+                <span>Templates for everyone</span>
+              </li>
+              <li class="flex gap-2">
+                <img src="./assets/Vector.svg" alt="check mark icone" />
+                <span>Development workflow</span>
+              </li>
+              <li class="flex gap-2">
+                <img src="./assets/Vector.svg" alt="check mark icone" />
+                <span>Limitless business automation</span>
+              </li>
+              <li class="flex gap-2">
+                <img src="./assets/Vector.svg" alt="check mark icone" />
+                <span>Knowledge management</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      
+      <!--Social Proof-->
+      <section >
+        <div class="wrapper py-24 grid grid-cols-1 lg:grid-cols-2 gap-24">
+          <div>
+            <span class="text-primary text-lg">Trusted Worldwide</span>
+            <h2 class="pb-4">
+              Trusted by over 600 million users and 10,000 teams
+            </h2>
+            <p class="text-lg font-light text-secondaryText mb-6">
+              Our rigorous security and compliance standards are at the heart of
+              all we do. We work tirelessly to protect you and your customers.
+            </p>
+            <div class="divider"></div>
+            <div class="pt-6">
+              <a href="" class="flex gap-3 text-primary">
+                Explore Legality Guide
+                <img src="./assets/arrow-right.svg" alt="arrow icon right" />
+              </a>
+              <a href="" class="flex gap-3 text-primary">
+                Visit the Trust Center
+                <img src="./assets/arrow-right.svg" alt="arrow icon right" />
+              </a>
+            </div>
+          </div>
+          <div
+            class="grid grid-cols-1 2md:grid-cols-2 gap-8 md:grid-cols-2 sm:grid-cols-2"
+          >
+            <div>
+              <img src="./assets/uptime.svg" alt="uptime image" />
+              <h3 class="pt-4 pb-2 heading">99.99% uptime</h3>
+              <p class="font-light text-[#6B7280]">
+                for Flowbite, with zero maintenance downtime
+              </p>
+            </div>
+            <div>
+              <img src="./assets/users.svg" alt="users image" />
+              <h3 class="pt-4 pb-2 heading">600M+ Users</h3>
+              <p class="font-light text-[#6B7280]">
+                trusted by over 600 milion users around the world
+              </p>
+            </div>
+            <div>
+              <img src="./assets/cart.svg" alt="cart image" />
+              <h3 class="pt-4 pb-2 heading">Millions</h3>
+              <p class="font-light text-[#6B7280]">of transactions per day</p>
+            </div>
+            <div>
+              <img src="./assets/countries.svg" alt="uptime image" />
+              <h3 class="pt-4 pb-2 heading">100+ countries</h3>
+              <p class="font-light text-[#6B7280]">
+                have used Flowbite to create functional websites
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Testimonials Section-->
+      <section class="bg-[#F9FAFB] pt-24">
+        <div class="wrapper py-24">
+          <div class="carousel w-full">
+            <div id="item1" class="carousel-item w-full">
+              <div class="flex flex-col items-center justify-center gap-6">
+                <img src="./assets/qoute.svg" alt="qoute image" />
+                <p
+                  class="text-2xl font-semibold leading-relaxed w-full lg:w-[63%] m-auto text-center"
+                >
+                  1"Flowbite is just awesome. It contains tons of predesigned
+                  components and pages starting from login screen to complex
+                  dashboard. Perfect choice for your next SaaS application."
+                </p>
+                <div class="flex items-center gap-[14px]">
+                  <img src="./assets/Avatar.png" alt="Avatar image" />
+                  <span>Micheal Gough /</span>
+                  <span class="text-[#6B7280] text-sm">CEO at Google</span>
+                </div>
+              </div>
+            </div>
+            <div id="item2" class="carousel-item w-full">
+              <div class="flex flex-col items-center justify-center gap-6">
+                <img src="./assets/qoute.svg" alt="qoute image" />
+                <p
+                  class="text-2xl font-semibold leading-relaxed w-full lg:w-[63%] m-auto text-center"
+                >
+                  2"Flowbite is just awesome. It contains tons of predesigned
+                  components and pages starting from login screen to complex
+                  dashboard. Perfect choice for your next SaaS application."
+                </p>
+                <div class="flex items-center gap-[14px]">
+                  <img src="./assets/Avatar.png" alt="Avatar image" />
+                  <span>Micheal Gough /</span>
+                  <span class="text-[#6B7280] text-sm">CEO at Google</span>
+                </div>
+              </div>
+            </div>
+            <div id="item3" class="carousel-item w-full">
+              <div class="flex flex-col items-center justify-center gap-6">
+                <img src="./assets/qoute.svg" alt="qoute image" />
+                <p
+                  class="text-2xl font-semibold leading-relaxed w-full lg:w-[63%] m-auto text-center"
+                >
+                  3"Flowbite is just awesome. It contains tons of predesigned
+                  components and pages starting from login screen to complex
+                  dashboard. Perfect choice for your next SaaS application."
+                </p>
+                <div class="flex items-center gap-[14px]">
+                  <img src="./assets/Avatar.png" alt="Avatar image" />
+                  <span>Micheal Gough /</span>
+                  <span class="text-[#6B7280] text-sm">CEO at Google</span>
+                </div>
+              </div>
+            </div>
+            <div id="item4" class="carousel-item w-full">
+              <div class="flex flex-col items-center justify-center gap-6">
+                <img src="./assets/qoute.svg" alt="qoute image" />
+                <p
+                  class="text-2xl font-semibold leading-relaxed w-full lg:w-[63%] m-auto text-center"
+                >
+                  4"Flowbite is just awesome. It contains tons of predesigned
+                  components and pages starting from login screen to complex
+                  dashboard. Perfect choice for your next SaaS application."
+                </p>
+                <div class="flex items-center gap-[14px]">
+                  <img src="./assets/Avatar.png" alt="Avatar image" />
+                  <span>Micheal Gough /</span>
+                  <span class="text-[#6B7280] text-sm">CEO at Google</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex w-full justify-center gap-2 py-2 mt-6">
+            <a href="#item1" class="rounded-full bg-slate-300 size-[10px]"></a>
+            <a href="#item2" class="rounded-full bg-slate-300 size-[10px]"></a>
+            <a href="#item3" class="rounded-full bg-slate-300 size-[10px]"></a>
+            <a href="#item4" class="rounded-full bg-slate-300 size-[10px]"></a>
+          </div>
+        </div>
+      </section>
+      <!--FAQ Section-->
+      <section >
+        <div class="wrapper py-24">
+          <h2 class="text-center">Frequently Asked Questions</h2>
+
+          <div
+            id="accordion-flush"
+            data-accordion="collapse"
+            class="w-full lg:w-1/2 m-auto mt-8"
+            data-active-classes="bg-white dark:bg-gray-900 text-gray-900 dark:text-white"
+            data-inactive-classes="text-gray-500 dark:text-gray-400"
+          >
+            <h3 id="accordion-flush-heading-1">
+              <button
+                type="button"
+                class="flex items-center justify-between w-full py-5 font-medium rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3"
+                data-accordion-target="#accordion-flush-body-1"
+                aria-expanded="true"
+                aria-controls="accordion-flush-body-1"
+              >
+                <span>Can I use FlowBite in open-source projects?</span>
+                <svg
+                  data-accordion-icon
+                  class="w-3 h-3 rotate-180 shrink-0"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5 5 1 1 5"
+                  />
+                </svg>
+              </button>
+            </h3>
+            <div
+              id="accordion-flush-body-1"
+              class="hidden"
+              aria-labelledby="accordion-flush-heading-1"
+            >
+              <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                <p class="mb-2 text-gray-500 dark:text-gray-400">
+                  Flowbite is an open-source library of interactive components
+                  built on top of Tailwind CSS including buttons, dropdowns,
+                  modals, navbars, and more.
+                </p>
+                <p class="text-gray-500 dark:text-gray-400">
+                  Check out this guide to learn how to
+                  <a
+                    href="/docs/getting-started/introduction/"
+                    class="text-blue-600 dark:text-blue-500 hover:underline"
+                    >get started</a
+                  >
+                  and start developing websites even faster with components on
+                  top of Tailwind CSS.
+                </p>
+              </div>
+            </div>
+            <h3 id="accordion-flush-heading-2">
+              <button
+                type="button"
+                class="flex items-center justify-between w-full py-5 font-medium rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3"
+                data-accordion-target="#accordion-flush-body-2"
+                aria-expanded="false"
+                aria-controls="accordion-flush-body-2"
+              >
+                <span>Where can I access my download files?</span>
+                <svg
+                  data-accordion-icon
+                  class="w-3 h-3 rotate-180 shrink-0"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5 5 1 1 5"
+                  />
+                </svg>
+              </button>
+            </h3>
+            <div
+              id="accordion-flush-body-2"
+              class="hidden"
+              aria-labelledby="accordion-flush-heading-2"
+            >
+              <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                <p class="mb-2 text-gray-500 dark:text-gray-400">
+                  Flowbite is first conceptualized and designed using the Figma
+                  software so everything you see in the library has a design
+                  equivalent in our Figma file.
+                </p>
+                <p class="text-gray-500 dark:text-gray-400">
+                  Check out the
+                  <a
+                    href="https://flowbite.com/figma/"
+                    class="text-blue-600 dark:text-blue-500 hover:underline"
+                    >Figma design system</a
+                  >
+                  based on the utility classes from Tailwind CSS and components
+                  from Flowbite.
+                </p>
+              </div>
+            </div>
+            <h3 id="accordion-flush-heading-3">
+              <button
+                type="button"
+                class="flex items-center justify-between w-full py-5 font-medium rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3"
+                data-accordion-target="#accordion-flush-body-3"
+                aria-expanded="false"
+                aria-controls="accordion-flush-body-3"
+              >
+                <span>Can I use FlowBite for commercial purposes?</span>
+                <svg
+                  data-accordion-icon
+                  class="w-3 h-3 rotate-180 shrink-0"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5 5 1 1 5"
+                  />
+                </svg>
+              </button>
+            </h3>
+            <div
+              id="accordion-flush-body-3"
+              class="hidden"
+              aria-labelledby="accordion-flush-heading-3"
+            >
+              <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                <p class="mb-2 text-gray-500 dark:text-gray-400">
+                  The main difference is that the core components from Flowbite
+                  are open source under the MIT license, whereas Tailwind UI is
+                  a paid product. Another difference is that Flowbite relies on
+                  smaller and standalone components, whereas Tailwind UI offers
+                  sections of pages.
+                </p>
+                <p class="mb-2 text-gray-500 dark:text-gray-400">
+                  However, we actually recommend using both Flowbite, Flowbite
+                  Pro, and even Tailwind UI as there is no technical reason
+                  stopping you from using the best of two worlds.
+                </p>
+                <p class="mb-2 text-gray-500 dark:text-gray-400">
+                  Learn more about these technologies:
+                </p>
+                <ul class="ps-5 text-gray-500 list-disc dark:text-gray-400">
+                  <li>
+                    <a
+                      href="https://flowbite.com/pro/"
+                      class="text-blue-600 dark:text-blue-500 hover:underline"
+                      >Flowbite Pro</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://tailwindui.com/"
+                      rel="nofollow"
+                      class="text-blue-600 dark:text-blue-500 hover:underline"
+                      >Tailwind UI</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <h3 id="accordion-flush-heading-4">
+              <button
+                type="button"
+                class="flex items-center justify-between w-full py-5 font-medium rtl:text-right text-gray-500  dark:border-gray-700 dark:text-gray-400 gap-3"
+                data-accordion-target="#accordion-flush-body-4"
+                aria-expanded="false"
+                aria-controls="accordion-flush-body-4"
+              >
+                <span>What about browser support?</span>
+                <svg
+                  data-accordion-icon
+                  class="w-3 h-3 rotate-180 shrink-0"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5 5 1 1 5"
+                  />
+                </svg>
+              </button>
+            </h3>
+            <div
+              id="accordion-flush-body-4"
+              class="hidden"
+              aria-labelledby="accordion-flush-heading-4"
+            >
+              <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                <p class="mb-2 text-gray-500 dark:text-gray-400">
+                  The main difference is that the core components from Flowbite
+                  are open source under the MIT license, whereas Tailwind UI is
+                  a paid product. Another difference is that Flowbite relies on
+                  smaller and standalone components, whereas Tailwind UI offers
+                  sections of pages.
+                </p>
+                <p class="mb-2 text-gray-500 dark:text-gray-400">
+                  However, we actually recommend using both Flowbite, Flowbite
+                  Pro, and even Tailwind UI as there is no technical reason
+                  stopping you from using the best of two worlds.
+                </p>
+                <p class="mb-2 text-gray-500 dark:text-gray-400">
+                  Learn more about these technologies:
+                </p>
+                <ul class="ps-5 text-gray-500 list-disc dark:text-gray-400">
+                  <li>
+                    <a
+                      href="https://flowbite.com/pro/"
+                      class="text-blue-600 dark:text-blue-500 hover:underline"
+                      >Flowbite Pro</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://tailwindui.com/"
+                      rel="nofollow"
+                      class="text-blue-600 dark:text-blue-500 hover:underline"
+                      >Tailwind UI</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--CTA Section-->
+      <section class="bg-[#F9FAFB] pt-24">
+       <div class="wrapper py-24 ">
+      <div class="flex flex-col w-full items-center justify-center gap-6">
+        <h2 class="text-mainText text-center">Start your free trial today</h2>
+        <p class="text-center text-lg text-[#6B7280] leading-relaxed">Try Flowbite Platform for 30 days. No credit card required.</p>
+        <button class="bg-primary text-white px-5 py-3 rounded-lg">Free trial for 30 days</button>
+      </div>
+       </div>
+        </section>
+    </main>
+    <!--Footer Section-->
+    <footer>
+      <div class="wrapper py-16">
+      <div class="flex flex-col items-center justify-center gap-16 md:gap-12 sm:gap-8">
+        <div class="flex flex-wrap lg:flex-nowrap justify-between md:justify-center sm:justify-start w-full gap-6 md:gap-8 lg:gap-12">
+        <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/5 flex flex-col gap-4 text-start">
+          <h3 class=" text-mainText font-semibold">COMPANY</h3>
+          <ul class="flex flex-col gap-4">
+            <li class="text-[#6B7280] text-[16px]">About</li>
+            <li class="text-[#6B7280] text-[16px]">Premium</li>
+            <li class="text-[#6B7280] text-[16px]">Blog</li>
+            <li class="text-[#6B7280] text-[16px]">Affilate Program</li>
+            <li class="text-[#6B7280] text-[16px]">Get Coupon</li>
+          </ul>
+        </div>
+        <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/5 flex flex-col gap-4 text-start">
+          <h3 class=" text-mainText font-semibold">Help and support</h3>
+          <nav class="flex flex-col gap-4">
+            <a class="text-[#6B7280] text-[16px]">Contact Us</a>
+            <a class="text-[#6B7280] text-[16px]">Knowledge Center</a>
+            <a class="text-[#6B7280] text-[16px]">Premium Support</a>
+            <a class="text-[#6B7280] text-[16px]">Sponsorships</a>
+          </nav>
+        </div>
+        <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/5 flex flex-col gap-4 text-start">
+          <h3 class=" text-mainText font-semibold">Learning</h3>
+          <nav class="flex flex-col gap-4">
+            <a href="" class="text-[#6B7280] text-[16px]">Learn Hub</a>
+            <a href="" class="text-[#6B7280] text-[16px]">Manuals</a>
+            <a href="" class="text-[#6B7280] text-[16px]">Tutorials</a>
+            <a href="" class="text-[#6B7280] text-[16px]">Communities</a>
+          </nav>
+        </div>
+        <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/5 flex flex-col gap-4 text-start">
+          <h3 class=" text-mainText font-semibold">RESOURCES</h3>
+          <nav class="flex flex-col gap-4">
+            <a class="text-[#6B7280] text-[16px]">Third-Party Tools</a>
+            <a class="text-[#6B7280] text-[16px]">Illustrations</a>
+            <a class="text-[#6B7280] text-[16px]">Themesberg</a>
+            <a class="text-[#6B7280] text-[16px]">Bluehost</a>
+            <a class="text-[#6B7280] text-[16px]">Stock Photos</a>
+          </nav>
+        </div>
+        <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/5 flex flex-col gap-4 text-start">
+          <h3 class=" text-mainText font-semibold">LEGAL</h3>
+          <nav class="flex flex-col gap-4">
+            <a class="text-[#6B7280] text-[16px]">Privacy Policy</a>
+            <a class="text-[#6B7280] text-[16px]">Terms & Conditions</a>
+            <a class="text-[#6B7280] text-[16px]">ELUA</a>
+          </nav>
+        </div>
+        </div>
+        <div class="flex flex-col items-center justify-center gap-5">
+          <div class="w-[120px] sm:w-[156px]">
+            <img src="./assets/Logo.svg" alt="logo image" />
+          </div>
+        <p class="text-[#6B7280] leading-tight text-[16px]">© 2022 Flowbite, Inc. All rights reserved.</p>
+        <div class="flex items-center gap-4">
+        <a href=""><img src="./assets/github.svg" alt="github icone"></a>
+        <a href=""><img src="./assets/twitter.svg" alt="twitter icone"></a>
+        <a href=""><img src="./assets/dribbble.svg" alt="dribbble icone"></a>
+        <a href=""><img src="./assets/facebook.svg" alt="facebook icone"></a>
+        </div>
+        </div>
+      </div>
+      </footer>
+    <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+    <script>
+      const menuToggle = document.getElementById("menu-toggle");
+      const menu = document.getElementById("menu");
+      menuToggle.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+        if (menu.classList.contains("hidden")) {
+          menuToggle.innerHTML = `<i class="material-icons">menu</i>`;
+        } else {
+          menuToggle.innerHTML = `<i class="material-icons">close</i>`;
+        }
+      });
+    </script>
+  </body>
+</html>
